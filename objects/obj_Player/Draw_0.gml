@@ -1,6 +1,7 @@
 
 draw_self();
 
+draw_point(x, y);
 
 /*6
 // Vetor de visão ---

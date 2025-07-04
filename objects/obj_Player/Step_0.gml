@@ -26,20 +26,8 @@ if(_move[0] != 0 || _move[1] != 0) {
     vsp = 0;
 }
 
-// COLISÃO -----------------------------------------
-if(place_meeting(x+hsp, y, obj_Parede)) {
-	while(!place_meeting(x+sign(hsp), y, obj_Parede)) {
-		x += sign(hsp);
-	}
-	hsp = 0;
-}
-
-if(place_meeting(x, y+vsp, obj_Parede)) {
-	while(!place_meeting(x, y+sign(vsp), obj_Parede)) {
-		y += sign(vsp);
-	}
-	vsp = 0;
-}
+// Colisão ------
+colisao_player(obj_Parede);
 
 // COMBATE -----------------------------------------
 if( !(_mira[0] == 0 and _mira[1] == 0) and recarga >= temp_recarga ) {

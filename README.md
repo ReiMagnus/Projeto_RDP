@@ -1,2 +1,2 @@
-# Projeto_RDP
- 
+# Projeto_RDP 
+O projeto RDP traz Rei da Padaria, um jogo inspirado no minigame de Stardew Valley (Rei da Pradaria). Ele foi criado para ser usado no projeto Juta Academy e em oficinas como uma maneira divertida de ensinar e aprender.
