@@ -1,5 +1,5 @@
 
-timer_spawn--;
+//timer_spawn--;
 time--;
 
 if(timer_spawn <= 0) {

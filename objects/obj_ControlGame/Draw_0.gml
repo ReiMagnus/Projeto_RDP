@@ -1,5 +1,5 @@
 
-
+/*
 var _linha = 16*8;
 
 draw_line(320, 192, 320+_linha, 192);
